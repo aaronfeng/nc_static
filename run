@@ -1,0 +1,4 @@
+echo "Serving hello world page on port 7777..."
+echo "Ctrl-C to terminate."
+
+while true; do nc -l 7777 < hello_world.html; done
